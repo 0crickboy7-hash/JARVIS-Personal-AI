@@ -1,0 +1,33 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime data
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep
+
+# Editors and Windows
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Large models, archives and local backups
+models/
+*.zip
+*.bak
+node_modules/
+
+# Environment backups
+.env-*
